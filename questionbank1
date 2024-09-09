@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class day2 {
+    public static void main(String[] args)
+    {
+            //question1 addition of three number
+            //int a=4;
+            //int b=4;
+            //int c=4;
+            //int sum=a+b+c;
+            //System.out.println(sum);
+
+                                                //question 2 calculate cgpa for three subject
+                                            // float subject1=20;
+                                            // float subject2=30;
+                                            // float subject3=20;
+                                            // float cgpa=(subject1+subject2+subject3/30);
+                                            //  System.out.println(cgpa);
+
+                //question3 input from the user
+            //System.out.println("what is your name");
+            //Scanner sc= new Scanner(System.in);
+            //String name=sc.next();
+            //System.out.println("hello "   + name +  " have a good day...!");
+
+
+                                                    //question4
+                                                    //System.out.println("enter your number");
+                                                    //Scanner sc=new Scanner(System.in);
+                                                    //System.out.println(sc.hasNextInt());
+                                                    //output
+                                                    // enter your number
+                                                    //123
+                                                    //true
+    }
+}
