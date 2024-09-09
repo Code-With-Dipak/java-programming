@@ -1,0 +1,51 @@
+
+// types of Operator in java
+//arithmetic op
+//assignment op
+//comparison op
+//logical op
+//bitwise op
+
+
+public class operator {
+    public static void main(String[] args)
+    {
+        // arithmetic op (+,_,*,%)
+        int a=4;
+        int b=4+a;
+        int c=4*a;
+        int d=4%a;
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+
+        //assignment op (+=)
+
+        int x=9;
+         x+=9;
+        System.out.println(x);
+
+        //comparison op
+        System.out.println(6==6); //true
+        System.out.println(6==8); //false
+
+        //logical op
+
+        System.out.println(64>5 && 64>8); //true
+        System.out.println(64>5 && 65>100); //false
+
+        System.out.println(64>7 || 65>100); //true
+
+        //bitwise op (work with bit)
+        10
+        11
+     -------
+        10
+        System.out.println(2&3);
+
+
+
+
+
+    }
+}
