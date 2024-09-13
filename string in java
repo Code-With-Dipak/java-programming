@@ -1,0 +1,71 @@
+//strings in java
+// it is a (class)
+// can not be change
+
+import java.util.Locale;
+
+public class string {
+    public static void main(String[] args) {
+        //String name = new String("dipak");
+        // OR
+        // String name = "dipak";
+        // System.out.println(name);  //dipak
+
+        //strings methods
+        //they can be used to find length of the string
+
+        // methods:-
+           /*   1].length() Returns the length of this string.
+                            The length is equal to the number of Unicode code units in the string.
+              String name ="Dipak";
+              int value =name.length();
+              System.out.println(value); // 5 */
+
+             /* 2].to lowercase() Converts all of the characters in this String to lower case using the rules of
+                                the default locale. This is equivalent to calling toLowerCase(Locale. getDefault()).
+               String st ="DIPAK";
+               String  lstring  = st.toLowerCase();
+               System.out.println(lstring); // dipak */
+
+         /* 3]to uppercase() Converts all of the characters in this String to upper case using the rules
+                        of the default locale. This method is equivalent to toUpperCase(Locale. getDefault()).
+        String st ="DIPAK";
+        String  lstring  = st.toUpperCase();
+        System.out.println(lstring); // DIPAK */
+
+        /* 4].trim() Returns a string whose value is this string, with all leading and trailing space removed,
+                    where space is defined as any character whose codepoint is less
+                    than or equal to 'U+0020' (the space character).
+        String name ="    dipak      ";
+        String s1=name.trim();
+        System.out.println(s1);  // dipak */
+
+         /* 5].substring()
+        String name ="    dipak      ";
+        System.out.println(s1.substring(2)); // pak
+
+        System.out.println(s1.substring(1,4));  // ipa */
+
+
+        /* 6].replace() Replaces each substring of this string that matches
+                        the literal target sequence with the specified literal replacement sequence.
+        String st ="Harry";
+        System.out.println(st.replace("r","p")); //Happy */
+
+        /* 7] .startwith() Tests if this string starts with the specified prefix.
+        String st ="DIPAK";
+        System.out.println(st.startsWith("DIP")); //true */
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}
