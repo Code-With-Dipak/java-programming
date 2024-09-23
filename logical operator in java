@@ -1,0 +1,42 @@
+// Logical Operator in java
+// 1]AND (&&)
+// 2]OR   (||)
+// 3]NOT
+
+
+public class logical_operator {
+    public static void main(String[] args) {
+
+        // AND  (&&)
+      /*  boolean a = true;
+            boolean b = false;
+        if (a && b){
+            System.out.println("Yes");
+        }
+            else {
+            System.out.println("NO"); //No
+        } */
+
+
+            // OR (||)
+           /* boolean a = true;
+            boolean b = false;
+        if (a || b){
+            System.out.println("Yes"); //Yes
+        }
+            else {
+            System.out.println("NO");
+        } */
+
+            // NOT
+        boolean a = true;
+        boolean b = true;
+        System.out.println("Not (a) is");
+        System.out.println("!a");
+
+        System.out.println("Not (b) is");
+        System.out.println("!b");
+
+
+    }
+}
